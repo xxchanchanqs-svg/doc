@@ -1,6 +1,6 @@
 # [人形机器人仿真](https://github.com/google-deepmind/mujoco/network/dependents)
 
-<!-- 共4581个仓库，更新到最新的仓库： https://github.com/rkourdis/solo12_mujoco 
+<!-- 共4581个仓库，更新到最新的仓库： https://github.com/mochan-b/mujoco_mocapper 
 更新到的页面： https://github.com/google-deepmind/mujoco/network/dependents?dependents_before=MzQ2MzU2MzM2Mzk -->
 
 - [__Mujoco__](#Mujoco)
@@ -365,6 +365,8 @@
 
 [Imitation-Learning](https://github.com/vsreyas/Imitation-Learning)
 
+[graph_offline_imitation](https://github.com/Kavka1/graph_offline_imitation)
+
 [易于运行的模仿学习和强化学习框架](https://github.com/Ericonaldo/ILSwiss)
 
 [四足动物行为克隆实验](https://github.com/dtch1997/quadruped-bc)
@@ -442,6 +444,10 @@
 [Meta QLearning 实验优化机器人步行模式](https://github.com/gokulp01/meta-qlearning-humanoid)
 
 [Meta-World 是一个开源基准，用于开发和评估用于连续控制机器人操作环境的多任务和元强化学习算法](https://github.com/Farama-Foundation/Metaworld)
+
+[基于技能的领域转移元强化学习](https://github.com/GarlicWang/RL_2023_Fall)
+
+[元学习好奇心算法](https://github.com/Ziksby/MetaLearnCuriosity)
 
 [Optm-MetaRL](https://github.com/LucienJi/OptmMeta-RL)
 
@@ -681,6 +687,8 @@
 
 [强化学习中技能转移的分层启动源代码](https://github.com/SSHAY007/MiniHackThePlanet)
 
+[Jax 中改进离线策略优化的宽松平稳分布校正估计](https://github.com/ku-dmlab/PORelDICE)
+
 [描述符条件强化学习 MAP-Elites](https://github.com/adaptive-intelligent-robotics/DCRL-MAP-Elites)
 
 [OPTIMUS：利用视觉运动变换器进行模拟任务和运动规划](https://github.com/NVlabs/Optimus)
@@ -861,6 +869,8 @@
 [学习-强化学习](https://github.com/ayton-zhang/Learning-Reinforcement-Learning)
 
 [强化学习的深入讲解](https://github.com/rogerwater/Reinforcement-Learning)
+
+[原始源代码 Michael Hu 撰写的《强化学习的艺术》](https://github.com/Apress/art-of-reinforcement-learning)
 
 [强化学习教程](https://github.com/weiminn/reinforcement_learning_tutorials)
 
@@ -1076,11 +1086,15 @@
 
 [使用基于贝叶斯优化的课程学习提高自主赛车深度强化学习方法的环境鲁棒性](https://github.com/PRISHIta123/Curriculum_RL_for_Driving)
 
+[迷宫](https://github.com/EndikaEiros/dumb_maze_runner)
+
 [倒立摆](https://github.com/AniruddhS24/inverted-pendulum)
 
 [多任务机器人学习](https://github.com/Eyshika/Multi_Task_Robot_Learning)
 
 [与 ROS NIAS-API 类似的 CoppeliaSim 机器人模拟器的绑定](https://github.com/knowledgetechnologyuhh/nicol_coppeliasim)
+
+[中国跳棋环境中，经过完整参数共享训练的 PPO 代理进行自我对弈](https://github.com/noahadhikari/pettingzoo-chinese-checkers)
 
 [实现 DDPG 进行简单的倒水](https://github.com/yashas-salankimatt/csce642-finalproj)
 
@@ -1219,6 +1233,10 @@
 
 [通过潜在想象力进行学习的行为](https://github.com/falheisen/BE_dreamer)
 
+[用于自动将动作捕捉添加到 mujoco xml 文件的工具](https://github.com/mochan-b/mujoco_mocapper)
+
+[强化学习算法的实现](https://github.com/sgoodfriend/rl-algo-impls)
+
 [Mechcat Mujoco 查看器](https://github.com/ialab-yale/meshcat-mujoco)
 
 [加速多智能体强化学习的程序环境生成](https://github.com/tomalner18/MAax)
@@ -1327,7 +1345,13 @@
 
 [使用 mujoco 进行 DOQ 模拟](https://github.com/griffinaddison/doq_viz)
 
+[franka_simulation](https://github.com/Yujin1007/franka_simulation)
+
 [网络可塑性](https://github.com/arjunpat/network-plasticity)
+
+[pixel_gcrl](https://github.com/nicolascastanet/pixel_gcrl)
+
+[具有策略预算的个性化强化学习](https://github.com/dimonenka/RL_policy_budget)
 
 [sb3-mujoco-1](https://github.com/hansen1416/sb3-mujoco-1)
 
@@ -1335,13 +1359,25 @@
 
 [高级软件实践](https://github.com/YongBonJeon/Advanced-Software-Practices)
 
+[实施监督 Actor-Critic 策略提炼作为其他迁移学习 RL 方法的基础](https://github.com/HAI-lab-UVA/policy-distillation-andrew)
+
 [DRL-AirHockey](https://github.com/zhalehmehrabi/DRL-AirHockey) - [其他1](https://github.com/ShuoZheLi/air_hockey_challenge_robosuite)
 
+[了解 Transformer 的研讨会](https://github.com/klao/t9r-class)
+
 [RoboDog项目](https://github.com/Stblacq/robodog)
+
+[amr_fleet_offboard_infra_frontend](https://github.com/DockDockGo/amr_fleet_offboard_infra_frontend)
 
 [network-plasticity](https://github.com/arjunpat/network-plasticity)
 
 [自己实现的深度强化学习算法](https://github.com/minghongx/deeprl)
+
+[用于控制推测解码中需要预测的标记数量](https://github.com/skrider/speculative-forecasting)
+
+[LLM_CD](https://github.com/ElmoPA/LLM_CD)
+
+[无监督强化学习](https://github.com/siddharthbharthulwar/unsupervised-rl)
 
 [通过 10 个视觉变化因素扩展 Metaworld 环境](https://github.com/dtch1997/factor-world)
 
