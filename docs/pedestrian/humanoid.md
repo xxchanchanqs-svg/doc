@@ -1,7 +1,7 @@
 # [人形机器人仿真](https://github.com/google-deepmind/mujoco/network/dependents)
 
-<!-- 共4581个仓库，更新到最新的仓库： https://github.com/hty0111/Biorobotics 
-更新到的页面： https://github.com/google-deepmind/mujoco/network/dependents?dependents_before=Mzc1MDM2NDE4NzM -->
+<!-- 共4581个仓库，更新到最新的仓库： https://github.com/chanb/mtil 
+更新到的页面： https://github.com/google-deepmind/mujoco/network/dependents?dependents_before=Mzc2Nzc4OTg1MzM -->
 
 - [__Mujoco__](#Mujoco)
     - [人的建模](#humanoid_model)
@@ -375,6 +375,8 @@
 
 [多任务参与者评论家学习](https://github.com/anzeliu/multitask_actor_critic_learning)
 
+[JAX 中的分布式多智能体强化学习](https://github.com/instadeepai/Mava)
+
 [多智能体竞赛](https://github.com/KJaebye/Multiagent-Race)
 
 [多智能体强化学习算法](https://github.com/RahulBoipai/MADDPG-pettingzoo-pytorch)
@@ -388,6 +390,8 @@
 ### 模仿学习 <span id="imitation"></span>
 
 [通过语境翻译进行观察模仿](https://github.com/medric49/imitation-from-observation) - 一种基于演示训练代理模仿专家的算法
+
+[多任务模仿学习](https://github.com/chanb/mtil)
 
 [从人类示范中学习操纵技能](https://github.com/aai4r/aai4r-pouring-skill)
 
@@ -420,6 +424,8 @@
 [hierarchy_Reinforcement_Learning](https://github.com/yourlucky/hierarchy_Reinforcement_Learning)
 
 [分层强化学习](https://github.com/yourlucky/Picker-Hierarchical-RL)
+
+[通过关键节点调整子目标以实现离线分层强化学习](https://github.com/qortmdgh4141/ASK)
 
 [分层隐式 Q 学习](https://github.com/skylooop/GOTIL)
 
@@ -480,6 +486,8 @@
 [评估复杂任务分布中的元强化学习算法](https://github.com/mhelabd/Meta-RL)
 
 [解决元强化学习中的上下文解耦问题](https://github.com/FrankTianTT/INTACT)
+
+[约束元强化学习，用于可微分凸规划的自适应安全保障](https://github.com/Mgineer117/Meta-CPO)
 
 [人人皆可学习的元学习](https://github.com/ChoiDae1/Meta-learning-Study)
 
@@ -667,6 +675,9 @@
 [利用言语纠正来提升机器人在执行复杂的长期任务时的表现](https://github.com/yay-robot/yay_robot)
 
 
+[反馈就是你所需要的一切吗？在目标条件强化学习中利用自然语言反馈](https://github.com/uoe-agents/feedback-dt)
+
+[释放预训练语言模型的力量，实现离线强化学习](https://github.com/srzer/LaMo-2023)
 
 [将 ChatGPT 集成到机器人控制过程中，以实现零样本规划和控制](https://github.com/andrei-calin-dragomir/gpt-controller)
 
@@ -1325,6 +1336,8 @@
 [将 URDF 模型转换为 MJCF 模型的实用工具](https://github.com/ipa320/urdf2mjcf)
 
 [基于 Web 的模拟环境可视化工具](https://github.com/NVlabs/sim-web-visualizer)
+
+[将其组织在单个文件中来增强可读性](https://github.com/Taka-Hashimoto/Simple_TDMPC)
 
 [一个基于 C++ 的批处理环境池 EnvPool](https://github.com/sail-sg/envpool) - 基于 C++ 的高性能并行环境执行引擎（矢量化环境），适用于通用 RL 环境
 
