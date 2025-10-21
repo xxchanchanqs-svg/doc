@@ -7,6 +7,15 @@
 
 2.添加车辆到蓝图库并测试。
 
+- 在 `内容(Content)/Carla/Blueprint/Vehicles` 中，打开 `VehicleFactory` 文件。
+- 在 **_Generate Definitions_** 选项卡中，双击 **_Vehicles_** 。
+- 在 **_细节(Details)_** 面板中，展开 **_默认值(Default Value)_** 部分并向车辆数组添加一个新元素。 
+- 填写您车辆的品牌 **_Make_**(BYD) 和型号 **_Model_**(seal) 。 
+- 使用您的 `BP_<vehicle_name>` 文件填写 **_Class_** 值(BP_BYDseal)。
+- Number of Wheels 填 `4`，Generation 填 `0`
+- 编译并保存。
+
+
 测试代码：
 ```shell
 python manual_control.py --filter vehicle.BYD.seal

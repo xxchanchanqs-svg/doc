@@ -1,19 +1,29 @@
-# CARLA 引擎模块说明
-简介
-环境依赖
-核心功能
+# CARLA 游戏模块说明
+
+
+- [引擎模块](#engine_module)
+
+
+
+
+
+
+
+# 引擎模块  <span id="engine_module"></span>
 主要函数
+
 代码结构
+
 贡献代码
 
-## 简介
+## 简介 <span id="introduction"></span>
 
-CARLA（CAR Learning to Act）是一个基于 Unreal Engine 的开源自动驾驶模拟器。本项目的 CarlaEngine.cpp 负责管理 CARLA 的核心引擎功能，如固定时间步长、RPC 服务器线程数等。
+本项目的 [CarlaEngine.cpp](https://github.com/OpenHUTB/hutb/blob/hutb/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Game/CarlaEngine.cpp) 负责管理 Carla 的核心引擎功能，如固定时间步长、RPC 服务器线程数等。
 
-## 环境依赖
+## 环境依赖 <span id="env_dependence"></span>
 本模块依赖以下组件： Unreal Engine 、CARLA 源码 、ROS2（可选） 、多 GPU 支持库
 
-## 核心功能
+## 核心功能 <span id="core_function"></span>
 
 CarlaEngine.cpp 主要提供以下核心功能：
 
@@ -60,7 +70,8 @@ CARLA
 │   │   │   │   │   │   │   ├── CarlaStatics.h
 
 
-# 🚀Game模块技术文档
+# 游戏模块 <span id="game_module"></span>
+
 ---
 
 ## 目录  
@@ -73,7 +84,7 @@ CARLA
 ---
 
 ## 📝模块概述
-`Game`模块是 CARLA 项目在虚幻引擎（UE4/UE5）中的核心逻辑模块，负责管理自动驾驶仿真场景的完整生命周期。其核心功能包括：
+`Game`模块是 HUTB 项目在引擎中的核心逻辑模块，负责管理人车仿真场景的完整生命周期。其核心功能包括：
 - **场景管理**：加载 OpenDRIVE 地图、动态设置天气及交通规则；
 - **角色控制**：生成车辆、行人、传感器等实体，并绑定物理行为（如车辆移动组件）；
 - **传感器交互**：通过摄像头、雷达、激光雷达等传感器实时采集数据，并支持异步传输到服务端或 ROS2；
@@ -81,7 +92,7 @@ CARLA
 - **ROS2 集成**：通过帧同步机制与 ROS2 通信，发布传感器消息（需启用`WITH_ROS2`宏）；
 - **语义分割**：为生成的角色分配语义标签（如`CustomDepthStencilValue`），支持自动驾驶算法训练与可视化。
 
-该模块通过 `CarlaGameModeBase`、`CarlaEpisode` 等核心类协调虚幻引擎与 CARLA 服务端的交互，是连接游戏逻辑与自动驾驶仿真的关键桥梁。
+该模块通过 **游戏模式基类** [`CarlaGameModeBase`](https://github.com/OpenHUTB/hutb/blob/hutb/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Game/CarlaGameModeBase.h) 、**剧情** `CarlaEpisode` 等核心类协调引擎与 HUTB 服务端的交互，是连接游戏逻辑与人车模拟的关键桥梁。
 
 ---
 ## 📚核心功能详解

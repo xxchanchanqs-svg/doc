@@ -2,7 +2,7 @@
 
 ![CARLA Modules](img/build_modules.jpg)
 
-从功能文档转到实现文档。
+从 Python 所实现的**功能**文档转到 C++ 的**实现**文档。
 
 ## 一、Carla库：[LibCarla](https://openhutb.github.io/carla_cpp/dir_b14cdd661f9a7048a44f1771cd402401.html)
 * [客户端](./modules/client.md) [client](https://openhutb.github.io/carla_cpp/dir_64d7bb605f27024d49af86070bd3f0b6.html)
