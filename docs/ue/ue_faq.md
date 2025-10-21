@@ -211,6 +211,36 @@ git reset --hard origin/hutb
 ```
 
 
+## 常见问题
+
+###### CarlaUE4.exe 崩溃的日志保存目录
+
+.dmp 文件分析要求本机中有崩溃发生版本对应的符号表文件（CarlaUE4.pdb 文件），使用 VS 2022 （VS 2019 的步骤类似）分析 .dmp 文件步骤如下：
+
+```
+C:\Users\Administrator\AppData\Local\CarlaUE4\Saved\Crashes
+```
+附：崩溃日志的保存目录和项目名有关：C:\Users[Your Windows Username]\AppData\Local[Project Name]\Saved\Crashes
+
+###### 引擎 MiniDump 崩溃现场的恢复
+
+1.找到崩溃时生成的 .dmp 文件，使用 VS 2022 打开，如下图所示：
+![](../img/tuto_D_windows_debug/open_dump.jpg)
+
+（打开文件后会有转储摘要、系统信息、引用模块的说明，但这些信息并不直观）。
+
+点击设置符号路径。该按钮在界面右侧，用于指定 CarlaUE4.pdb 文件的路径。
+
+
+2.选择 .pdb 文件的路径，路径为编译好的 HUTB 源码的 `D:\hutb\Unreal\CarlaUE4\Binaries\Win64` 路径下，点击确定
+
+![](../img/tuto_D_windows_debug/select_pdb.jpg)
+
+3.点击 "使用 仅限本机 进行调试"，成功复现崩溃现场
+
+![](../img/tuto_D_windows_debug/restore_scene.jpg)
+
+
 ## 参考链接
 * [UE4初学者系列教程合集-全中文新手入门教程](https://www.bilibili.com/video/BV164411Y732/?share_source=copy_web&vd_source=d956d8d73965ffb619958f94872d7c57)
 
@@ -221,4 +251,6 @@ git reset --hard origin/hutb
 * [知乎的虚幻引擎社区](https://zhuanlan.zhihu.com/egc-community)
 
 * [虚幻引擎开放路线图](https://portal.productboard.com/epicgames/1-unreal-engine-public-roadmap/tabs/24-unreal-engine-4-27)
+
+* [Unreal 的 MiniDump 机制调研](https://zhuanlan.zhihu.com/p/649610542)
 
