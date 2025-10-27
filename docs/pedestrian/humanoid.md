@@ -2,7 +2,7 @@
 
 <!-- 共4581个仓库，
 更新到的页面： 
-https://github.com/google-deepmind/mujoco/network/dependents?dependents_before=NDcxNzMzMDk1Nzk
+https://github.com/google-deepmind/mujoco/network/dependents?dependents_before=NDczNDk0MDAwMDA
 -->
 
 - [__人__](#humanoid)
@@ -323,11 +323,13 @@ https://github.com/google-deepmind/mujoco/network/dependents?dependents_before=N
 [使用双足机器人执行复杂控制任务的各种策略](https://github.com/MMahdiSetak/WalkerRL)
 
 
-### 灵巧手 <span id="hand"></span>
+### 手臂 <span id="hand"></span>
 
 [使用逆运动学实现 Unitree G1 人形机器人的基本手部运动](https://github.com/yediong/IK-humanoid)
 
 [对使用机械手进行强化学习的探索](https://github.com/Autobots-Visman/reinforcement-learning)
+
+[RoboTwin：具有生成数字孪生的双臂机器人基准](https://github.com/Tengbo-Yu/robotwin)
 
 
 ### 比赛 <span id="tournament"></span>
@@ -366,7 +368,11 @@ https://github.com/google-deepmind/mujoco/network/dependents?dependents_before=N
 
 [MuJoCo 的高性能 LiDAR 模拟](https://github.com/TATP-233/MuJoCo-LiDAR)
 
+[基于单刚体模型并用Python编写的模型预测控制器](https://github.com/njayboehme/ME_531_Proj)
+
 [unitree_mpc](https://github.com/sm-1z/unitree_mpc)
+
+[基于 ROS 的功能包，主要围绕 Piper机械臂以及 Orbbec 深度相机等硬件的应用展开](https://github.com/HustWolfzzb/EmbodiedAIOS)
 
 [利用 ROS2 MoveIt 任务构造器来控制 MuJoCo 中的 UR5e 机械臂和 Robotiq 2F-85 夹持器](https://github.com/nimeshaTJ/Nimesha_Jayatunge_Thesis)
 
@@ -390,7 +396,7 @@ https://github.com/google-deepmind/mujoco/network/dependents?dependents_before=N
 
 [使用 OpenAI Gym 环境的 xArm6 机器人强化学习框架](https://github.com/julio-design/xArm6-Gym-Env) - 该模型使用深度确定性策略梯度(DDPG) 进行连续动作，并使用后见之明经验回放(HER)
 
-[OGBench 是一个基准测试，旨在促进离线目标条件强化学习 (RL)、离线无监督强化学习和离线强化学习中的算法研究](https://github.com/devinluo27/ogbench_cpdfu_release)
+[OGBench 是一个基准测试，旨在促进离线目标条件强化学习 (RL)、离线无监督强化学习和离线强化学习中的算法研究](https://github.com/devinluo27/ogbench_cpdfu_release) - [其他1](https://github.com/qasim-ali0/ModelBasedContrastiveRL)
 
 [基于双视野模型的策略优化 (DHMBPO)](https://github.com/4kubo/erl_lib)
 
@@ -407,6 +413,8 @@ https://github.com/google-deepmind/mujoco/network/dependents?dependents_before=N
 [gym上强化学习的一些实现](https://github.com/paoyw/RL_gym)
 
 [基于运动原语的 RL 算法的测试设置](https://github.com/freiberg-roman/mp-rl)
+
+[新兴合作伙伴模型](https://github.com/ruaridhmon/emergent_partner_modelling)
 
 [使用 Openai-gym 进行强化学习](https://github.com/ashiskb/RL-workspace)
 
@@ -631,6 +639,8 @@ https://github.com/google-deepmind/mujoco/network/dependents?dependents_before=N
 [合成奖励机器用于合作多智能体强化学习](https://github.com/giovannivarr/MARM-JAIR-code)
 
 [多智能体竞赛](https://github.com/KJaebye/Multiagent-Race)
+
+[INS：交互感知合成，增强离线多智能体强化学习](https://github.com/fyqqyf/INS)
 
 [MARIE - 多智能体自回归想象高效学习](https://github.com/breez3young/MARIE)
 
@@ -1070,6 +1080,12 @@ https://github.com/google-deepmind/mujoco/network/dependents?dependents_before=N
 
 
 [面向长远强化学习的 LLM 分解和奖励设计](https://github.com/tjvitchutripop/sds685-llm-long-horizon-rl)
+
+[具有内在空间推理的视觉-语言-行动模型](https://github.com/InspireVLA/Inspire-FAST)
+
+[反射规划：多阶段长视界机器人操作的视觉语言模型](https://github.com/ggs2ggs/reflect-vlm)
+
+[评估视觉-语言-动作（VLA）模型的泛化能力](https://github.com/qnoens/EvalGenCapVLA)
 
 [OneTwoVLA：具有自适应推理的统一视觉-语言-动作模型](https://github.com/Fanqi-Lin/OneTwoVLA)
 
