@@ -128,6 +128,20 @@ make PythonAPI ARGS="--chrono"
 pip install twine
 twine upload dist/*  # 需要使用PyPi的Token
 ```
+报错：
+```text
+ERROR    InvalidDistribution: Metadata is missing required fields: Name, Version.
+         Make sure the distribution includes the files where those fields are specified, and is using a supported Metadata-Version: 1.0, 1.1, 1.2, 2.0, 2.1, 2.2.
+```
+检查：
+```shell
+twine check dist/*
+```
+通过解压`PythonAPI\carla\dist\hutb-2.2-cp310-cp310-win_amd64.whl`发现：元数据版本`Metadata-Version`为2.4，不在支持的版本之列。
+
+解决：将 3.9~3.13 版本的whl文件用7zip打开，并编辑（F4）`hutb-2.2.dist-info\METADATA`，将`Metadata-Version`改为2.2，然后保存。
+
+___
 
 * 其他：发布自定义mkdocs
 ```shell
@@ -144,9 +158,6 @@ requests.exceptions.ProxyError: HTTPSConnectionPool(host='upload.pypi.org', port
 关闭系统代理即可解决。
 
 上传权限不够：
-```text
-
-```
 ```shell
 twine upload dist/* --repository-url https://pypi.org/manage/project/hutb-doc/releases/
 ```
@@ -204,3 +215,4 @@ pygame.font.Font(pygame.font.get_default_font(), 20)
 
 ## 参考
 * [内网穿透](https://natapp.cn/article/config_ini)
+* [元数据检查](https://stackoverflow.com/questions/79791079/twine-error-with-recent-setuptools-build-but-previous-ones-fine-invaliddistribu)

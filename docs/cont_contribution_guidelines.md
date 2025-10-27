@@ -33,7 +33,7 @@ __2. 阅读文档。__ 确保问题是一个错误，而不是对 Carla 应该�
 
 新功能的想法也是一种很好的贡献方式。任何可以改善用户体验的建议都可以在 [此处][frlink] 的相应 GitHub 部分提交。
 
-[frlink]: https://github.com/carla-simulator/carla/issues?q=is%3Aissue+is%3Aopen+label%3A%22feature+request%22+sort%3Acomments-desc
+[frlink]: https://github.com/OpenHUTB/hutb/issues
 
 ---
 ## 代码贡献 <span id="code_contributions"></span>
@@ -43,7 +43,7 @@ __2. 阅读文档。__ 确保问题是一个错误，而不是对 Carla 应该�
 
 为了开始工作，请 [创建 Carla 存储库的分叉](https://docs.github.com/en/enterprise/2.13/user/articles/fork-a-repo) ，并将所述分叉克隆到您的计算机中。请记住使您的分叉与原始存储库 [保持同步](https://docs.github.com/en/enterprise/2.13/user/articles/syncing-a-fork) 。
 
-[issueboard]: https://github.com/carla-simulator/carla/issues
+[issueboard]: https://github.com/OpenHUTB/hutb/issues
 
 ### 了解虚幻引擎 <span id="learn_about_unreal_engine"></span>
 
