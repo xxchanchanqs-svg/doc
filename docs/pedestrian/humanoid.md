@@ -1990,9 +1990,9 @@ https://github.com/google-deepmind/mujoco/network/dependents?dependents_before=N
 
 [MuJoCo 模拟、可视化和数据处理的综合工具包](https://github.com/ShanningZhuang/mujoco_tools)
 
-[将 URDF 模型转换为 MJCF 模型的实用工具](https://github.com/ipa320/urdf2mjcf) - [其他](https://github.com/kscalelabs/urdf2mjcf)
+[将 robot urdf 文件转换为 mjcf 的工具](https://github.com/FFTAI/Wiki-GRx-MJCF) - [将 URDF 模型转换为 MJCF 模型的实用工具](https://github.com/ipa320/urdf2mjcf) - [其他](https://github.com/kscalelabs/urdf2mjcf)
 
-[将 robot urdf 文件转换为 mjcf 的工具](https://github.com/FFTAI/Wiki-GRx-MJCF)
+[用于将MJCF（MuJoCo 建模格式）机器人模型文件中的有限元素转换为 URDF 的脚本](https://github.com/Yasu31/mjcf_urdf_simple_converter)
 
 [基于 Web 的模拟环境可视化工具](https://github.com/NVlabs/sim-web-visualizer)
 
@@ -2109,8 +2109,6 @@ https://github.com/google-deepmind/mujoco/network/dependents?dependents_before=N
 [PyTorch 中基于模型的强化学习的最小库](https://github.com/aidanscannell/mbrl-under-uncertainty)
 
 [标准化机器学习的集成中间件框架](https://github.com/fhswf/MLPro)
-
-[用于将MJCF（MuJoCo 建模格式）机器人模型文件中的有限元素转换为 URDF 的脚本](https://github.com/Yasu31/mjcf_urdf_simple_converter)
 
 [OpenAI Gym 环境使用 pybullet 来制作Tyrannosaur](https://github.com/bingjeff/trex-gym)
 
