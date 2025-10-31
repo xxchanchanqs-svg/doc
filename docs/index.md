@@ -117,6 +117,8 @@ title: 主页
 
 [__行人建模__](tuto_content_authoring_pedestrians.md) — 在三维建模软件中对人进行建模
 
+[__Mujoco插件__]() - 提供 Mujoco和 HUTB 模拟器之间的协同仿真
+
 [__行人物理场模拟__](pedestrian/tuto_content_chrono_opensim.md) — Chrono OpenSim 解析器
 
 

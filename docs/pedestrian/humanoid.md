@@ -49,6 +49,8 @@ https://github.com/google-deepmind/mujoco/network/dependents?dependents_before=N
 
 [将 opensim 4.0+ MSK 模型转换为 MuJoCo 格式的工具](https://github.com/MyoHub/myoconverter) - 具有优化的肌肉运动学和动力学
 
+[使用“双 DQN 强化学习”来解决肌肉骨骼任务](https://github.com/victor369basu/MyosuiteDDQN) 
+
 [比赛ENG-ME951-MyoChallenge2023](https://github.com/renaik/ENG-ME951-MyoChallenge2023) - 即DEP-RL：过度驱动和肌肉骨骼系统中强化学习的具体探索
 
 [计算出遵循约束条件的最可能路径](https://github.com/rimao-uni/Frame-interpolation-by-OM-theory)
