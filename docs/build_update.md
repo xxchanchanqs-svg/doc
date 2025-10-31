@@ -145,5 +145,14 @@ git clone https://bitbucket.org/carla-simulator/carla-content Unreal/CarlaUE4/Co
 !!! 笔记
     在克隆存储库之前删除包含资产的 `/Carla` 文件夹。否则，将显示错误。
 
+## 其他
+
+* 使用命令`git lfs migrate info`发现git管理的文件太大，将大于 100Kb 的文件迁移成大文件管理：
+```shell
+git lfs migrate import --everything --above=100Kb
+git lfs push origin master
+git push --force
+```
+
 [contentrepolink]: https://bitbucket.org/carla-simulator/carla-content
 [gitlfslink]: https://github.com/git-lfs/git-lfs/wiki/Installation
