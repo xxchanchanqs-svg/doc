@@ -200,6 +200,8 @@ python setup.py build
 ### 检查所依赖dll库的符号是否加载 <span id="check_dll_loaded"></span>
 下断点，F5调试。然后“调试 - 窗口 - 模块”打开模块窗口。
 
+!!! 笔记
+    如果 Visual Studio 的解决方案资源管理器中没有显示本地新建的一些文件夹，右键`hutb\Unreal\CarlaUE4\CarlaUE4.uproject`选择运行`Generate Visual Studio project file`，然后重新打卡CarlaUE4.sln，即可看到最新的文件夹。
 
 ## 使用 Visual Studio 调试引擎代码
 
@@ -385,26 +387,30 @@ Failed to open descriptor file ./../../../carla/Unreal/CarlaUE4/CarlaUE4.uprojec
 
 * 进行函数跳转时，vs一致出现`正在进行IntelliSense`：
 
-选择“工具”菜单栏下的“选项”按钮打开选项页面，找到 文本编辑器->C/C++->高级,在右侧的禁用IntelliSense中改为True
+    选择“工具”菜单栏下的“选项”按钮打开选项页面，找到 文本编辑器->C/C++->高级,在右侧的禁用IntelliSense中改为True
 
 * [检查符号是否加载](https://blog.csdn.net/tomwillow/article/details/118387681) 
 
-启动调式并在断点停下，然后“调试 - 窗口 - 模块”打开模块窗口。
+    启动调式并在断点停下，然后“调试 - 窗口 - 模块”打开模块窗口。
 找到第三方dll的名字，看“符号文件”一栏是空的。说明这个dll的符号文件没有加载。
 把.pdb和.dll放在一起。再次调试。可以看到符号文件已经加载了。
 
 * 改变ubuntu终端显示语言（桌面系统中文，终端提示英文）
-```shell
-vim ~/.bashrc
-export LANGUAGE=en_US 
-export LANG=en_US.UTF-8
-source ~/.bashrc
-```
+    ```shell
+    vim ~/.bashrc
+    export LANGUAGE=en_US 
+    export LANG=en_US.UTF-8
+    source ~/.bashrc
+    ```
+
+* UE4C++ 调试时监控变量显示 “变量已经被优化，因此不可见”
+    
+    解决：在需要调试的模块的 build.cs 里，[添加代码](https://ue5wiki.com/wiki/12876/) ：`OptimizeCode = CodeOptimization.Never;`
 
 
 * 日志记录
 
-`UE_LOG`函数记录的日志位于`carla\Unreal\CarlaUE4\Saved\Logs\CarlaUE4.log`文件中。
+    `UE_LOG`函数记录的日志位于`carla\Unreal\CarlaUE4\Saved\Logs\CarlaUE4.log`文件中。
 
 ### 工具
 [VScode调试shell bash脚本](https://blog.csdn.net/helloasimo/article/details/130444217)
@@ -422,6 +428,9 @@ source ~/.bashrc
 
 自动化测试请参考 [链接](./test/tuto_test.md) 。
 
+## 其他
+
+* [引擎 MiniDump 崩溃现场的恢复](ue/ue_faq.md)
 
 ### 学习 <span id="learn"></span>
 * [bat脚本](tuto_D_bat.md)
