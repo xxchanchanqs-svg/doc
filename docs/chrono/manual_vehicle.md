@@ -17,6 +17,8 @@
 - [__可视化__](vehicle_visualization.md)
 - [__车辆模型__](vehicle_models.md)
 
+- [__C++ 教学示例__](cpp_tutorials.md)
+
 ## 其他文档页面
 
 - [__Chrono Core 用户手册__](#creating-an-agent)
