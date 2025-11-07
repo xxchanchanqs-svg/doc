@@ -164,3 +164,4 @@
 
 ```markdown
 ![重建结果](../assets/meshroom/model_preview.png)
+-[下载 3D 模型](https://pan.quark.cn/s/549fc2b2f8b0)
