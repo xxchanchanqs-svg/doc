@@ -53,6 +53,7 @@ for i in range(200):
 
 * [Carla中Chrono的实现分析](../chrono/chrono_in_carla.md)
 * [Chrono OpenSim 解析器](../chrono/OpenSim_parser.md)
+* [Chrono 添加可视化组件 irrlicht](../chrono/irrlicht_support.md)
 
 
 ## 自定义
