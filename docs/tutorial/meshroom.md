@@ -153,5 +153,5 @@
 - Windows 3D 查看器  
 
 ```markdown
-![重建结果](../assets/meshroom/model_preview.png)
--[下载 3D 模型](https://pan.quark.cn/s/549fc2b2f8b0)
+![重建结果](..\doc\docs\img\model_preview.png)
+-[下载 3D 模型](https://pan.quark.cn/s/9d989d5757d9)
