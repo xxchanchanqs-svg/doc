@@ -53,6 +53,7 @@ for i in range(200):
 
 * [Carla中Chrono的实现分析](../chrono/chrono_in_carla.md)
 * [Chrono OpenSim 解析器](../chrono/OpenSim_parser.md)
+* [Chrono 添加可视化组件 irrlicht](../chrono/irrlicht_support.md)
 
 
 ## 自定义
@@ -64,11 +65,11 @@ for i in range(200):
 
 - [OpenSim 官方示例和教程](https://opensimconfluence.atlassian.net/wiki/spaces/OpenSim/pages/53088695/Examples+and+Tutorials)
 
-- [知乎：Opensim基础教程](https://zhuanlan.zhihu.com/p/673721925)
-
 - [Chrono OpenSim 解析器手册](https://sbel.wiscweb.wisc.edu/wp-content/uploads/sites/569/2018/06/TR-2017-08.pdf) - 源于 [技术报告列表](https://sbel.wisc.edu/publications/technicalreports/)
 
 - [OpenSim解析器的C++类文档](https://api.projectchrono.org/classchrono_1_1parsers_1_1_ch_parser_open_sim.html)
+
+- [知乎：Opensim基础教程](https://zhuanlan.zhihu.com/p/673721925)
 
 - [带肌肉骨骼的强化学习环境](http://osim-rl.kidzinski.com/)
 
